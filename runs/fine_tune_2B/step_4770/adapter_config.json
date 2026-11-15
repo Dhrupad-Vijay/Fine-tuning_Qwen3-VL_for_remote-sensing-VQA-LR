@@ -6,7 +6,7 @@
     "base_model_class": "Qwen3VLForConditionalGeneration",
     "parent_library": "transformers.models.qwen3_vl.modeling_qwen3_vl"
   },
-  "base_model_name_or_path": "main/models/Qwen3-VL-4B-Instruct",
+  "base_model_name_or_path": "Qwen/Qwen3-VL-2B-Instruct",
   "bias": "none",
   "corda_config": null,
   "ensure_weight_tying": false,

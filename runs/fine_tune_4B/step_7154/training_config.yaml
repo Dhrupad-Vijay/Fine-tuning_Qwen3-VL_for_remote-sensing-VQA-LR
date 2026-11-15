@@ -1,0 +1,17 @@
+# Fine tune parameters
+
+run_name: fine_tune_4B
+model: 4B
+seed: 0
+limit_train: None
+epochs: 2
+batch_size: 8
+grad_accum: 2
+lr: 0.0002
+warmup_ratio: 0.03
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+log_every: 20
+eval_every: 500
+test_loss_n: 1000

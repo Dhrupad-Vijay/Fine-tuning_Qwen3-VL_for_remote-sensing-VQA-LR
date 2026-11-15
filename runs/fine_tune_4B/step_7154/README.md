@@ -1,8 +1,8 @@
 ---
-base_model: main/models/Qwen3-VL-4B-Instruct
+base_model: Qwen/Qwen3-VL-4B-Instruct
 library_name: peft
 tags:
-- base_model:adapter:main/models/Qwen3-VL-4B-Instruct
+- base_model:adapter:Qwen/Qwen3-VL-4B-Instruct
 - lora
 - transformers
 ---

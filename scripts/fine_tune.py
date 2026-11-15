@@ -78,7 +78,7 @@ def main():
     seed_ = cfg["seed"]
     random.seed(seed_)
     torch.manual_seed(seed_)
-    out_dir = PTH / "results/runs" / cfg["run_name"]
+    out_dir = PTH / "runs" / cfg["run_name"]
     out_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(args.config, out_dir / "config.yaml")
 
