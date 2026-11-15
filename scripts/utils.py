@@ -90,8 +90,8 @@ def scorer(preds, rows, options):
             answer = count_binning(answer)
 
         res_type[row['type']].append(pred == answer)
-        # if pred != answer:
-        #     wrong.append({'row': row, 'pred': pred})
+        if pred == answer:
+            wrong.append({'row': row, 'pred': pred})
     correct = sum(sum(v) for k,v in res_type.items())
     per_type_acc = {k: round(sum(v)/len(v) * 100, 2) for k,v in res_type.items()}
     avg_acc = sum([v for k,v in per_type_acc.items()])/len(per_type_acc)
