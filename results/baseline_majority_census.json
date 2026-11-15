@@ -1,0 +1,26 @@
+{
+  "Test_dataset": {
+    "n": 10004,
+    "overall_acc": 74.35,
+    "per_type_acc": {
+      "rural_urban": 56.0,
+      "presence": 88.29,
+      "count": 43.74,
+      "comp": 87.06
+    },
+    "avg_acc": 68.77,
+    "invalid_rate": 25.65
+  },
+  "Val_dataset": {
+    "n": 10005,
+    "overall_acc": 75.95,
+    "per_type_acc": {
+      "rural_urban": 50.0,
+      "presence": 90.78,
+      "count": 42.25,
+      "comp": 90.7
+    },
+    "avg_acc": 68.43,
+    "invalid_rate": 24.05
+  }
+}

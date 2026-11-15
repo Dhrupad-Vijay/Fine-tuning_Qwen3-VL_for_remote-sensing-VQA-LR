@@ -1,0 +1,21 @@
+{
+  "n": 10005,
+  "overall_acc": 88.5,
+  "per_type_acc": {
+    "rural_urban": 91.0,
+    "presence": 92.22,
+    "count": 75.29,
+    "comp": 95.47
+  },
+  "avg_acc": 88.5,
+  "invalid_rate": 0.0,
+  "args": {
+    "model": "4B",
+    "split": "val",
+    "out": "step_7154",
+    "limit": null,
+    "blind": false,
+    "batch_size": 32,
+    "adapter": "main/results/runs/fine_tune_4B/step_7154"
+  }
+}

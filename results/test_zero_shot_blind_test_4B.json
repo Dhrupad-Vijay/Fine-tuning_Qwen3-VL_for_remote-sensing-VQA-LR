@@ -1,0 +1,21 @@
+{
+  "n": 10004,
+  "overall_acc": 57.36,
+  "per_type_acc": {
+    "rural_urban": 56.0,
+    "presence": 72.22,
+    "count": 25.01,
+    "comp": 70.24
+  },
+  "avg_acc": 55.87,
+  "invalid_rate": 0.0,
+  "args": {
+    "model": "4B",
+    "split": "test",
+    "out": "test_zero_shot_blind",
+    "limit": null,
+    "blind": true,
+    "batch_size": 32,
+    "adapter": null
+  }
+}

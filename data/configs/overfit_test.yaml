@@ -1,0 +1,17 @@
+# Code check with overfit
+
+run_name: overfit_2b
+model: 2B
+seed: 0
+limit_train: 50
+epochs: 5
+batch_size: 8
+grad_accum: 1
+lr: 0.0002
+warmup_ratio: 0.0
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.0
+log_every: 7
+eval_every: 10000000000
+val_loss_n: 64
