@@ -68,8 +68,6 @@ Few examples of wrong predictions of the fine-tuned model on the test split.
 | Method | Presence | Comparison | Rural/urban | Count |
 |---|---:|---:|---:|---:|
 | RSVQA (Lobry et al., 2020) | 87.46 | 81.50 | 90.00 | 67.01 |
-| RSGPT, fine-tuned on RSVQA-LR (Hu et al., 2023) | 91.17 | 91.70 | 94.00 | – |
-| GeoChat (Kuckreja et al., 2024) | 91.09 | 90.33 | 94.00 | – |
 | **Qwen3-VL-4B + LoRA (this repo)** | **92.0** | **93.2** | **94.0** | **71.9** |
 | Majority answer per question, no image (this repo) | 88.3 | 87.1 | 56.0 | 43.7 |
 
